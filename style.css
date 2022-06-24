@@ -1,0 +1,200 @@
+/*Margem e espaçamento zerados*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Estilização e definições gerais*/
+body{
+    background-color: #006400;
+    font-family: papyrus, copperplate, fantasy;
+    font-size: 20px;
+}
+
+/*Cabeçalho*/
+header{
+    background-color: black;
+    color: white;
+    padding:7px;
+    height:260px;
+    text-align: center;
+}
+
+/*Navegação*/
+nav{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/*Lista*/
+li{
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+/*Formatação dos links*/
+a{
+    text-decoration: none;
+}
+
+ /*Links não visitados*/
+a:link, a:visited{
+    color:#9C9C9C;
+}
+
+/*Quando se passa o cursor sobre o link*/
+a:hover{
+    color: black;
+    background: #556B2F;
+}
+
+/*Rodapé*/
+footer{
+    color: white;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background-color: black;
+}
+
+/*#--> id, .--> class*/
+.titulo{
+    height: 200px;
+    width: 200px;
+}
+
+.topicos{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Modelo de caixa*/
+#caixa{
+    float: center;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    padding: 25px;
+    background-color:#828282;
+    width: 85%;
+    height: 580px;
+    border-bottom: 1px solid rgb(33, 33, 33);
+}
+
+#imgI{
+    float: right;
+    height: 450px;
+    width: 450px;
+    margin-left: 15px;
+}
+
+.textI{
+    font-size: 20px;
+    text-align: center;
+    
+}
+#caixaII{
+    float: center;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    padding: 25px;
+    background-color:#828282;
+    width: 85%;
+    height: 580px;
+    border-bottom: 1px solid rgb(33, 33, 33);
+}
+#imgII{
+    float: right;
+    height: 500px;
+    width: 360px;
+    margin-left: 15px;
+}
+
+#caixaIII{
+    float: center;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    padding: 25px;
+    background-color:#828282;
+    width: 85%;
+    height: 580px;
+    border-bottom: 1px solid rgb(33, 33, 33);
+}
+
+#imgIII{
+    float: right;
+    height: 498px;
+    width: 400px;
+    margin-left: 15px;
+}
+
+#caixaIV{
+    float: center;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    padding: 25px;
+    background-color:#828282;
+    width: 85%;
+    height: 580px;
+    border-bottom: 1px solid rgb(33, 33, 33);
+}
+
+#imgIV{
+    float: right;
+    height: 500px;
+    width: 370px;
+    margin-left: 15px;
+}
+#textIV{
+    font-size: 20px;
+    text-align: center;
+
+}
+#caixaV{
+    float: center;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    padding: 25px;
+    background-color:#828282;
+    width: 85%;
+    height: 580px;
+    border-bottom: 1px solid rgb(33, 33, 33);
+}
+#imgV{
+    float: right;
+    height: 500px;
+    width: 370px;
+    margin-left: 15px;
+}
+#caixaVI{
+    float: center;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    padding: 25px;
+    background-color:#828282;
+    width: 85%;
+    height: 580px;
+}
+#imgVI{
+    float: right;
+    height: 368px;
+    width: 524px;
+    margin-left: 15px;
+}
